@@ -15,6 +15,8 @@ header .top-bar {
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header .top-bar li a {
@@ -34,8 +36,12 @@ header .top-bar li:last-child a {
 #siteTitle {
     padding-top: 2%;
     text-align: center;
+    padding-bottom: 1%;
 }
 
-#menuItems {
-    float: right;
+.img-thumbnail {
+    width: 100%;
+    border: 0 !important;
+    padding: 0 !important;
 }
+
