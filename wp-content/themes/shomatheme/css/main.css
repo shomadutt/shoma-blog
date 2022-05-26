@@ -49,3 +49,10 @@ header .top-bar li:last-child a {
     margin-left: 2%;
 }
 
+.widget {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
