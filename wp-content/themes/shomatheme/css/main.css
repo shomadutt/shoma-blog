@@ -3,6 +3,7 @@ header {
     width: 100%;
     height: 100px;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 3%;
 }
 
 .page-wrap {
@@ -57,4 +58,12 @@ header .top-bar li:last-child a {
 
 #home-container {
     margin-top: 3%;
+}
+
+body a {
+    text-decoration: none;
+}
+
+#enquiry {
+    width: 70% !important;
 }

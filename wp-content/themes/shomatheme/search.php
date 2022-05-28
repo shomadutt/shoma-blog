@@ -3,7 +3,7 @@
 <section class="page-wrap">
 	<div class="container">
 
-		<h1>Search Results for '<?php echo get_search_query(); ?>'</h1>
+		<h3>Search Results for '<?php echo get_search_query(); ?>'</h3>
 
 		<?php get_template_part('includes/section', 'searchresults'); ?>
 

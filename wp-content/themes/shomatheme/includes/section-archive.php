@@ -12,11 +12,11 @@
 
 			<div class="blog-content">
 
-				<h3><?php the_title(); ?></h3>
+				<h4><?php the_title(); ?></h4>
 
 				<?php the_excerpt(); ?>
 
-				<a href="<?php the_permalink(); ?>" class="btn btn-success">Read more</a>
+				<a href="<?php the_permalink(); ?>">Read more</a>
 
 			</div>
 

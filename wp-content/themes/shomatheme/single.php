@@ -9,9 +9,9 @@
 
         <?php endif ?>
 
-        <h1>
+        <h3>
             <?php the_title(); ?>
-        </h1>
+        </h3>
 
         <?php get_template_part('includes/section', 'blogcontent'); ?>
 

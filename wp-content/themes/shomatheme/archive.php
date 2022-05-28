@@ -17,7 +17,9 @@
 
 			<div class="col-lg-9">
 
-				<?php echo single_cat_title(); ?>
+				<h3><?php echo single_cat_title(); ?></h3>
+
+				<br>
 
 				<?php get_template_part('includes/section', 'archive'); ?>
 

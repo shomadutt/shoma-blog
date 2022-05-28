@@ -26,6 +26,6 @@
 
 	<?php endwhile; else: ?>
 
-		There are no results for <?php the_search_query(); ?>
+		<h3>There are no results for <?php the_search_query(); ?></h3>
 
 	<?php endif; ?>

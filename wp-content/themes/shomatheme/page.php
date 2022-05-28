@@ -19,9 +19,11 @@
 
 			<div class="col-lg-9">
 				
-				<h1>
+				<h3>
 					<?php the_title(); ?>
-				</h1>
+				</h3>
+
+				<br>
 
 				<?php if(has_post_thumbnail()): ?>
 

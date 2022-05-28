@@ -9,31 +9,37 @@ Template Name: Contact Us
 <?php get_header(); ?>
 
 <section class="page-wrap">
-	<div class="container">
-		
-		<h1>
-			<?php the_title(); ?>
-		</h1>
+    <div class="container">
 
+        <section class="row">
 
-		<div class="row">
+            <div class="col-lg-3">
 
-			<div class="col-lg-6">
+                <?php if(is_active_sidebar('page-sidebar')): ?>
 
-				This is where the contact form goes.
+                <?php dynamic_sidebar('page-sidebar') ?>
 
-			</div>
+                <?php endif ?>
 
-			<div class="col-lg-6">
+            </div>
 
-				<?php get_template_part('includes/section', 'content'); ?>
+            <div class="col-lg-9">
 
-			</div>
+                <h3>
+                    <?php the_title(); ?>
+                </h3>
 
-		</div>
+				<br>
 
-	</div>
-</div>
+                <?php get_template_part('includes/form', 'enquiry'); ?>
 
+            </div>
+
+        </section>
+
+    </div>
+    </div>
+
+</section>
 
 <?php get_footer(); ?>
