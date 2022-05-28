@@ -18,7 +18,7 @@
     <header>
         <div class="container">
 
-            <div class="row" id="siteTitle">
+            <div class="row" id="site-title">
                 <h1><?php echo get_bloginfo('name'); ?></h1>
             </div>
 

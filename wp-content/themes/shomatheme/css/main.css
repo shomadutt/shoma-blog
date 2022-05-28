@@ -33,7 +33,7 @@ header .top-bar li:last-child a {
     padding-right: 0;
 }
 
-#siteTitle {
+#site-title {
     padding-top: 2%;
     text-align: center;
     padding-bottom: 1%;
@@ -55,4 +55,6 @@ header .top-bar li:last-child a {
 	padding: 0;
 }
 
-
+#home-container {
+    margin-top: 3%;
+}
