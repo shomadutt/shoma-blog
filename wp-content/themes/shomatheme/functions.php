@@ -37,6 +37,7 @@
 
 	add_theme_support('widgets');
 
+	
 	function my_sidebars() {
 
 		register_sidebar(
@@ -57,6 +58,8 @@
 			)
 		);
 	}
+
+	add_action( 'widgets_init', 'my_sidebars' );
 
 	add_action('wp_ajax_enquiry', 'enquiry_form');
 	add_action('wp_ajax_nopriv_enquiry', 'enquiry_form');
